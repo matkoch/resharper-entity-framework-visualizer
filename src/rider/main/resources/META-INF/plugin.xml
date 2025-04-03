@@ -1,0 +1,21 @@
+<idea-plugin require-restart="true">
+  <id>com.jetbrains.rider.plugins.entityframeworkvisualizer</id>
+  <name>EntityFrameworkVisualizer</name>
+  <version>_PLACEHOLDER_</version>
+  <vendor url="https://project-url">Author</vendor>
+  <idea-version since-build="_PLACEHOLDER_" until-build="_PLACEHOLDER_" />
+  <depends>com.intellij.modules.rider</depends>
+  <depends>com.intellij.database</depends>
+  <depends>com.intellij.diagram</depends>
+
+  <description>
+<![CDATA[
+<p>Sample description</p>
+]]>
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <rider.debugger.value.evaluator.factory implementation="com.jetbrains.rider.plugins.entityframeworkvisualizer.EntityFrameworkVisualizerEvaluatorFactory"/>
+  </extensions>
+
+</idea-plugin>
